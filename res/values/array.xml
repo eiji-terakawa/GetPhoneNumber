@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>textView_phone_name1</item>
+        <item>textView_phone_name2</item>
+        <item>textView_phone_name3</item>
+    </string-array>
+    <string-array name="number">
+        <item>textView_phone_number1</item>
+        <item>textView_phone_number2</item>
+        <item>textView_phone_number3</item>
+    </string-array>
+    <string-array name="setting">
+        <item>textView_phone_setting1</item>
+        <item>textView_phone_setting2</item>
+        <item>textView_phone_setting3</item>
+    </string-array>
+    <string-array name="call">
+        <item>textView_phone_call1</item>
+        <item>textView_phone_call2</item>
+        <item>textView_phone_call3</item>
+    </string-array>
+</resources>

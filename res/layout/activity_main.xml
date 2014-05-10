@@ -1,0 +1,249 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+	android:background="#000000"
+    tools:context=".MainActivity" >
+
+<!-- オーナー電話番号 -->
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:background="#008080"
+	    android:baselineAligned="true"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/textView_phone_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="30dp"
+	        android:gravity="bottom"
+	        android:text="owners Number"
+    	    android:textColor="#ffffff"
+	        android:textSize="20sp" />
+
+    	<TextView
+    	    android:id="@+id/textView_phone_number"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:layout_alignLeft="@+id/textView_phone_name"
+    	    android:layout_below="@+id/textView_phone_name"
+    	    android:gravity="center_vertical"
+    	    android:text="012-3456-7890"
+    	    android:textColor="#ffffff"
+    	    android:textSize="35sp" />
+
+	</LinearLayout>
+
+<!-- 登録電話番号その① -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:orientation="horizontal"
+	    android:background="#008B8B">
+		
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="100dp"
+		    android:layout_weight="6"
+		    android:orientation="vertical" >
+
+ 			<TextView
+ 			    android:id="@+id/textView_phone_name1"
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="30dp"
+ 			    android:gravity="bottom"
+ 			    android:text="owners Number"
+    	    	android:textColor="#ffffff"
+ 			    android:textSize="20sp" />
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_number1"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical"
+	    	    android:text="012-3456-7890"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+    	
+		</LinearLayout>
+	    	
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="100dp"
+		    android:layout_weight="1">
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_setting1"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical|center_horizontal"
+	    	    android:text="→"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+	    		    		
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="100dp"
+		    android:layout_weight="1">
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_call1"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical|center_horizontal"
+	    	    android:text="◎"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+	    		    		
+		</LinearLayout>
+			</LinearLayout>
+	
+<!-- 登録電話番号その② -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:orientation="horizontal"
+	    android:background="#008080">
+		
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="100dp"
+		    android:layout_weight="6"
+		    android:orientation="vertical" >
+
+ 			<TextView
+ 			    android:id="@+id/textView_phone_name2"
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="30dp"
+ 			    android:gravity="bottom"
+ 			    android:text="owners Number"
+    	    	android:textColor="#ffffff"
+ 			    android:textSize="20sp" />
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_number2"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical"
+	    	    android:text="012-3456-7890"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+    	
+		</LinearLayout>
+	    	
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="100dp"
+		    android:layout_weight="1">
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_setting2"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical|center_horizontal"
+	    	    android:text="→"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+	    		    		
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="100dp"
+		    android:layout_weight="1">
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_call2"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical|center_horizontal"
+	    	    android:text="◎"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+	    		    		
+		</LinearLayout>
+			</LinearLayout>
+	
+<!-- 登録電話番号その③ -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:orientation="horizontal"
+	    android:background="#008B8B">
+		
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="100dp"
+		    android:layout_weight="6"
+		    android:orientation="vertical" >
+
+ 			<TextView
+ 			    android:id="@+id/textView_phone_name3"
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="30dp"
+ 			    android:gravity="bottom"
+ 			    android:text="owners Number"
+    	    	android:textColor="#ffffff"
+ 			    android:textSize="20sp" />
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_number3"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical"
+	    	    android:text="012-3456-7890"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+    	
+		</LinearLayout>
+	    	
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="100dp"
+		    android:layout_weight="1">
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_setting3"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical|center_horizontal"
+	    	    android:text="→"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+	    		    		
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="100dp"
+		    android:layout_weight="1">
+
+	    	<TextView
+	    	    android:id="@+id/textView_phone_call3"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:gravity="center_vertical|center_horizontal"
+	    	    android:text="◎"
+	    	    android:textColor="#ffffff"
+	    	    android:textSize="35sp" />
+	    		    		
+		</LinearLayout>
+	</LinearLayout>
+	
+<!-- ダミーエリア -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:orientation="vertical" 
+	    android:background="#008080"
+		android:layout_weight="1">
+	</LinearLayout>
+	    	
+</LinearLayout>
